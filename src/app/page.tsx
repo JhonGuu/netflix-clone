@@ -1,8 +1,13 @@
-import { Button } from "@/components/ui/button";
+import { Navbar } from "@/components";
+import { SliderVideo } from "./(routes)/(home)/components/SliderVideo";
+
 
 
 export default function Home() {
   return (
-    <Button>Hola JhonGuu</Button>
+    <div className="relative bg-zinc-900">
+      <Navbar/>
+      <SliderVideo/>
+    </div>
   );
 }
